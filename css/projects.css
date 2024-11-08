@@ -1,0 +1,109 @@
+
+.projects-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e6dace;
+    color: #111111;
+}
+
+.projects-content-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vh;
+}
+
+.title-cont {
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#title-icon {
+    position: relative;
+    top: 9px;
+}
+
+.project-card {
+    width: 80vh;
+    height: 20rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0;
+    border: 0;
+    box-shadow: -10px 10px 10px -1px rgba(0, 0, 0, 0.15);
+    gap: 1rem;
+    background-color: #ffffff;
+}
+
+.text-section {
+    width: 65%;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.project-icon {
+    background-color: #8a2be2;
+    width: 11px;
+}
+
+.header-info-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.project-name p {
+    margin: 0;
+    color: #8a2be2;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.role-title {
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.body-text-cont {
+    margin-left: 2.7rem;
+}
+
+.body-text-cont a{
+    text-decoration: none;
+}
+
+.link-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 0.5rem;
+    margin-left: 2.7rem;;
+    gap: 0.5rem;
+}
+
+.image-section {
+    display: flex;
+    width: 35%;
+    height: 320px;
+}
+
+.image-section img {
+    width: 250px;
+}

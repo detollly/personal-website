@@ -1,0 +1,277 @@
+/* HEADER MOBILE */
+
+
+@media (max-width: 768px) {
+
+    .logo-block-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav {
+        height: 12vh;
+    }
+    
+    .nav-item {
+        width: 150px;
+        background-color: #b0a8b9;
+        text-align: end;
+        padding-right: 15px;
+        z-index: 1;
+    }
+    
+}
+
+
+/* FOOTER MOBILE*/
+
+@media (max-width: 768px) {
+
+
+    .contacts-cont {
+        padding: 0;
+        width: 100%;
+    }
+
+    .phone-cont,
+    .social-media-cont {
+        width: 8rem;
+    }
+
+    .credits-cont {
+        display: none;
+    }
+}
+
+
+/*** MOBILE PORTRAIT ORIENTATION ***/
+
+
+/* HOME PAGE */
+
+@media (max-width: 768px) {
+
+      .content-cont {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .object-1 {
+        width: 100vh;
+        height: 90vh;
+        top: 30rem;
+        left: 0px;
+      }
+    
+      .object-2 {
+        left: 0;
+        width: 40vh;
+        box-shadow: none;
+        margin-bottom: 8rem;
+      }
+
+      .object-3 {
+        height: 4rem;
+    }
+    
+      .hello-cont {
+        width: 100%;
+        text-align: center;
+        right: 0;
+        top: 2rem;
+      }
+
+      .object-2-content {
+        margin-bottom: 1rem;
+      }
+
+      .object-2-content h3 {
+        font-size: 1.5rem;
+      }
+    
+      .hello-bottom-section {
+        flex-direction: column;
+      }
+    
+      .hello-buttons {
+        flex-direction: column;
+      }
+    
+      .btn {
+        margin: 0.5rem 0;
+      }
+
+      .logo-block,
+      .object-2 h2,
+      .hello-buttons {
+        display: none;
+      }
+
+
+/* RESUME */
+    
+    .resume-title {
+        font-size: 26px;
+    }
+
+    #title-icon {
+        position: relative;
+        top: 0;
+    }
+
+    .title-cont {
+        margin: 2rem 0;
+    }
+
+    .section-header {
+        padding: 0 1rem;
+    }  
+
+    .resume-content-cont {
+        width: 48vh;
+    }
+
+    .section-title {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    section {
+        font-size: small;
+      }
+
+    .resume-card {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .profskillset-cont {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+
+/* PROJECTS */
+    
+    .projects-content-cont {
+        width: 60vh;
+    }
+
+    .projects-title {
+        font-size: 26px;
+    }
+
+    .project-card {
+        width: 45vh;
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+        font-size: small;
+    }
+
+    .text-section {
+        margin: 2rem 0;
+        height: 65%;
+        width: 100%;
+        padding-right: 12px;
+    }
+
+    .body-text-cont {
+        margin-bottom: 0.5rem;
+    }
+
+    .image-section {
+        width: 45vh;
+        height: auto;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+
+}
+
+
+/*** LANDSCAPE ORIENTATION ***/
+
+/* HOMEPAGE */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    
+    .content-cont {
+        width: 100%;
+    }
+    
+    .object-1 {
+        top: 13rem;
+        height: 170%;
+    }
+
+    .object-2 {
+        width: 80vh;
+        top: 8rem;
+    }
+    
+    .hello-cont {
+        top: 10rem;
+        width: 80%;
+    }
+
+/* RESUME */
+
+    .resume-content-cont {
+        min-width: 100vh;    
+    }
+
+
+/* PROJECTS */
+    
+    .project-card {
+        width: 100vh;
+        height: auto;
+    }
+
+    .image-section {
+        width: 22.5rem;
+        height: auto;
+    }
+
+    .right-section {
+        max-width: 80vh;
+    }
+
+}
+
+
+
+
+/* HOMEPAGE medium to large screens ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+
+    .object-2 {
+        left: 10rem;
+        width: 380px;
+    }
+    
+    .hello-cont {
+        right: 18rem;
+    }
+
+    .hello-text {
+        margin-top: 0rem;
+    }
+}
+
+
+
+/* HOMEPAGE rules EXCPEPT MOBILE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media only screen and (min-width: 800px) {
+
+    .logo-block-mobile, .object-2-content-mobile, .bottom-cont {
+        display: none;
+    }
+}

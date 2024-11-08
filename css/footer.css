@@ -1,0 +1,56 @@
+.footer-cont {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-cont {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-cont {
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phone-cont, .social-media-cont {
+    width: 20vh;
+}
+
+.social-media-icons-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-icons-cont img {
+    height: 23px;
+}
+
+.bottom-cont {
+    margin-top: 2rem;
+}
+
+.credits-cont-mobile {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-primary-text {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #111111;
+}
+
+.footer-secondary-text {
+    font-size: 14px;
+    text-align: center;
+    color: #111111;
+}

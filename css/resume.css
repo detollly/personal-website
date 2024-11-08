@@ -1,0 +1,141 @@
+
+.resume-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e6dace;
+    color: #111111;
+}
+
+.resume-content-cont {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vh;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.title-cont {
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resume-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#title-icon {
+    position: relative;
+    top: 9px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.section-header button {
+    border: 2px solid #111111
+}
+
+.section-header button:hover {
+    background-color: #e6dace;
+    color: #111111;
+    border: 2px solid #111111
+}
+
+.resume-card {
+    padding: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0;
+    border: 0;
+    box-shadow: -10px 10px 10px -1px rgba(0, 0, 0, 0.15);
+    gap: 5rem;
+    background-color: #ffffff;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 13rem;
+}
+
+.years h4 {
+    color: #8a2be2;
+    font-weight: bold;
+}
+
+.job-position {
+    margin-bottom: 0.5rem;
+}
+
+.org-name {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info-unit {
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+#grade {
+    margin-top: 1rem;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vh;
+    text-align: start;
+}
+
+.skills-cont {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+}
+
+.profskillset-cont {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.skill-section {
+    margin: 1rem 0;
+}
+
+.skill-section ul li {
+    list-style-type: none;
+}
+
+.skill-section ul li::before {
+    content: '■';
+    color: #8a2be2;
+    font-size: 23px;
+    margin-right: 3px;
+}
+
+
+
+
+

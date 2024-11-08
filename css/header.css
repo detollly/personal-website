@@ -1,0 +1,64 @@
+nav {
+    margin: 3rem 0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-collapse {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item {
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #111111;
+}
+
+.nav-item a,
+.nav-item a:after,
+.nav-item a:before {
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    color: #8a2be2;
+    font-size: 18px;
+}
+
+.logo-block {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin-top: 7.5px;
+    margin-right: 12px;
+    height: 20px;
+    width: 20px;
+    background-color: #8a2be2;
+}
+
+.logo-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #111111;
+}
+
+.logo-name span {
+    font-family: 'Sarpanch', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #111111;
+}
+
