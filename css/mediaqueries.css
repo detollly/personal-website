@@ -1,3 +1,6 @@
+/*** MOBILE PORTRAIT ORIENTATION ***/
+
+
 /* HEADER MOBILE */
 
 
@@ -14,7 +17,7 @@
     
     .nav-item {
         width: 150px;
-        background-color: #b0a8b9;
+        background-color: #2c73d2;
         text-align: end;
         padding-right: 15px;
         z-index: 1;
@@ -42,9 +45,6 @@
         display: none;
     }
 }
-
-
-/*** MOBILE PORTRAIT ORIENTATION ***/
 
 
 /* HOME PAGE */
@@ -150,6 +150,10 @@
         flex-direction: column;
         gap: 0;
     }
+
+    .skill-section {
+        width: 40vh;
+    }
     
 
 /* PROJECTS */
@@ -190,10 +194,42 @@
         width: 100%;
     }
 
+
+/* CONTACT */
+
+    .contacts-cont {
+        width: 40vh;
+    }
+
+    .contact-title {
+        font-size: 26px;
+    }
+
+    #title-icon {
+        position: relative;
+        top: 1px;
+    }
+
+
+    .contact-card {
+        width: 48vh;
+        height: auto;
+    }
+
+    form {
+        align-items: center;
+        width: 60vh;
+    }
+
+    .input-section,
+    #message {
+        width: 45vh;
+    }
 }
 
 
 /*** LANDSCAPE ORIENTATION ***/
+
 
 /* HOMEPAGE */
 
@@ -241,12 +277,51 @@
         max-width: 80vh;
     }
 
+/* CONTACT */
+
+
+    .contact-card {
+        width: 160vh;
+        height: auto;
+    }
+
+    form {
+        padding: 3rem 0 2rem 3rem;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100vh;
+    }
+
+    .input-section {
+        width: 100vh;
+    }
+
+    #message {
+        width: 100vh;
+        height: 45vh;
+    }
+
+
+/* FOOTER MOBILE*/
+
+    .contacts-cont {
+        padding: 0;
+        width: 100%;
+    }
+
+    .phone-cont,
+    .social-media-cont {
+        width: 8rem;
+    }
+
+    .credits-cont {
+        display: none;
+    }    
+
 }
 
 
-
-
-/* HOMEPAGE medium to large screens ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* HOMEPAGE medium to large screens */
 
 
 @media only screen and (min-width: 800px) and (max-width: 1600px) {
@@ -267,7 +342,7 @@
 
 
 
-/* HOMEPAGE rules EXCPEPT MOBILE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* HOMEPAGE rules EXCPEPT MOBILE */
 
 @media only screen and (min-width: 800px) {
 

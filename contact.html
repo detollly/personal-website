@@ -19,47 +19,42 @@
 </head>
 <body>
   <div class="wrapper">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary-white">
-    <div class="container-fluid">
-      <div class="logo-block">
-        <div class="icon">
-        </div>
-        <div class="logo-name">
-          Anatolijs Demjanovs <span> / SOFTWARE ENGINEER</span>
-        </div>
-      </div>
-      <div class="logo-block-mobile">
-        <div class="icon">
-        </div>
-        <div class="logo-name-block">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary-white">
+      <div class="container-fluid">
+        <div class="logo-block">
+          <div class="icon"></div>
           <div class="logo-name">
-            Anatolijs Demjanovs
-          </div>
+          Anatolijs Demjanovs <span> / SOFTWARE ENGINEER</span></div>
+        </div>
+        <div class="logo-block-mobile">
+          <div class="icon"></div>
+          <div class="logo-name-block">
+            <div class="logo-name">Anatolijs Demjanovs</div>
           <div class="occupation">SOFTWARE ENGINEER</div>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="contact-cont">
+    </nav>
+    <div class="contact-cont">
     <div class="content-cont">
         <div class="title-cont">
           <div class="icon" id="title-icon">
@@ -69,7 +64,7 @@
           </div>
         </div>
         <div class="contact-card">
-            <form action="https://formspree.io/f/xeoqobyn" method="POST">
+            <form id="contact-form" action="https://formspree.io/f/xeoqobyn" method="POST">
                 <div class="input-section">
                     <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -82,40 +77,39 @@
                     <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 </div>
-                <div class="input-section" id="hidden">
-                    <input type="hidden" name="_replyto" value="anatoly.demianov@gmail.com">
-                </div>                
-                <button class="d-inline-flex align-items-center btn btn-primary btn-sm px-3 rounded-pill" type="button" type="submit">Send
+                <button type="submit" class="d-inline-flex align-items-center btn btn-primary btn-sm px-3 rounded-pill" type="button">Send
                 </button>  
-            </form>           
-        </div>
-       <footer>
-<div class="footer-cont">
-  <div class="upper-cont">
-    <div class="credits-cont"><p class="footer-secondary-text">© 2024 by Anatolijs Demjanovs</p>
-    </div>
-    <div class="contacts-cont">
-      <div class="phone-cont">
-        <div class="phone-title-cont"><p class="footer-primary-text ">Phone</p></div>
-        <div class="phone-number-cont"><p class="footer-secondary-text">+44 7951 121 347</p></div>
-      </div>
-      <div class="social-media-cont">
-        <div class="social-media-title-cont"><p class="footer-primary-text ">Follow</p></div>
-        <div class="social-media-icons-cont">
-          <a href=""><img src="./assets/icons8-linkedin.svg" alt="linkedin icon"></a>
-        <a href=""><img src="./assets/icons8-instagram.svg" alt="instagram icon"></a>
-        <a href="https://github.com/detollly"><img src="./assets/icons8-github.svg" alt="gihub icon"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bottom-cont">
-    <div class="credits-cont-mobile"><p class="footer-secondary-text">© 2024 by Anatolijs Demjanovs</p>
-    </div>
-  </div>
+            </form>  
+          </div>         
+  </div>      
 </div>
+<footer>
+  <div class="footer-cont">
+    <div class="upper-cont">
+      <div class="credits-cont"><p class="footer-secondary-text">© 2024 by Anatolijs Demjanovs</p>
+      </div>
+      <div class="contacts-cont">
+        <div class="phone-cont">
+          <div class="phone-title-cont"><p class="footer-primary-text ">Phone</p></div>
+          <div class="phone-number-cont"><p class="footer-secondary-text">+44 7951 121 347</p></div>
+        </div>
+        <div class="social-media-cont">
+          <div class="social-media-title-cont"><p class="footer-primary-text ">Follow</p></div>
+          <div class="social-media-icons-cont">
+            <a href=""><img src="./assets/icons8-linkedin.svg" alt="linkedin icon"></a>
+          <a href=""><img src="./assets/icons8-instagram.svg" alt="instagram icon"></a>
+          <a href="https://github.com/detollly"><img src="./assets/icons8-github.svg" alt="gihub icon"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-cont">
+      <div class="credits-cont-mobile"><p class="footer-secondary-text">© 2024 by Anatolijs Demjanovs</p>
+      </div>
+    </div>
+  </div>
 </footer>
-<script src="/js/contact.js"></script>
+<script src="./js/contact.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

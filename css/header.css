@@ -6,6 +6,10 @@ nav {
     align-items: center;
 }
 
+.navbar-nav {
+    height: 2rem;
+}
+
 .navbar-collapse {
     margin-right: 2rem;
     display: flex;
@@ -13,7 +17,7 @@ nav {
 }
 
 .nav-item {
-    font-family: 'Sarpanch', sans-serif;
+    font-family: 'Poppins';
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -29,7 +33,7 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #8a2be2;
+    color: #8a2be2 !important;
     font-size: 18px;
 }
 
@@ -48,16 +52,16 @@ nav {
 }
 
 .logo-name {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     font-weight: 800;
     font-size: 24px;
     color: #111111;
 }
 
 .logo-name span {
-    font-family: 'Sarpanch', sans-serif;
+    font-family: 'Poppins';
     letter-spacing: 2px;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     color: #111111;
 }

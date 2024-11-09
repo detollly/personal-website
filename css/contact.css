@@ -36,7 +36,6 @@
     height: 60vh;
     padding: 1rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
     border-radius: 0;
     border: 0;
@@ -66,7 +65,7 @@ form {
 input, textarea {
     width: 18rem;
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid rgb(221, 221, 221);
     border-radius: 5px;
     font-size: 1em;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -78,8 +77,9 @@ input, textarea:focus {
     outline: none;
 }
 
-input, textarea:hover::placeholder {
-    color: #8a2be2;
+
+input:hover::placeholder {
+    color: #bebebe;
     font-style: italic
 }
 
