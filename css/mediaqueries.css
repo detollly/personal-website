@@ -12,7 +12,7 @@
     }
     
     nav {
-        height: 12vh;
+        height: 12dvh;
     }
     
     .nav-item {
@@ -54,11 +54,12 @@
       .content-cont {
         flex-direction: column;
         align-items: center;
+        width: 100dvw;
       }
 
       .object-1 {
-        width: 100vh;
-        height: 90vh;
+        width: 100dvw;
+        height: 130dvh;
         top: 30rem;
         left: 0px;
       }
