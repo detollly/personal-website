@@ -10,7 +10,7 @@
 .resume-content-cont {
     display: flex;
     flex-direction: column;
-    max-width: 80vh;
+    width: 60dvw;
 }
 
 section {
@@ -109,7 +109,7 @@ section {
 .skills-cont {
     display: flex;
     flex-direction: column;
-    width: 70vh;
+    width: 100dvw;
 }
 
 .profskillset-cont {

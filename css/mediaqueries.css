@@ -17,10 +17,14 @@
     
     .nav-item {
         width: 150px;
-        background-color: #2c73d2;
+        background-color: #8a2be2;
         text-align: end;
         padding-right: 15px;
         z-index: 1;
+    }
+
+    .nav-link {
+        color: #ffffff !important;
     }
     
 }
@@ -59,7 +63,7 @@
 
       .object-1 {
         width: 100dvw;
-        height: 130dvh;
+        height: 120dvh;
         top: 30rem;
         left: 0px;
       }
@@ -110,6 +114,10 @@
 
 
 /* RESUME */
+
+    .resume-content-cont {
+        width: 95dvw;
+    }
     
     .resume-title {
         font-size: 26px;
@@ -128,10 +136,6 @@
         padding: 0 1rem;
     }  
 
-    .resume-content-cont {
-        width: 48vh;
-    }
-
     .section-title {
         display: flex;
         align-items: center;
@@ -147,20 +151,21 @@
         gap: 3rem;
     }
 
-    .profskillset-cont {
-        flex-direction: column;
-        gap: 0;
+    .skills-cont {
+        width: 80dvw;
     }
 
-    .skill-section {
-        width: 40vh;
+    .profskillset-cont {
+        width: 80dvw !important;
+        flex-direction: column;
+        gap: 0;
     }
     
 
 /* PROJECTS */
     
     .projects-content-cont {
-        width: 60vh;
+        width: 100dvw;
     }
 
     .projects-title {
@@ -168,9 +173,9 @@
     }
 
     .project-card {
-        width: 45vh;
+        width: 95dvw;
         flex-direction: column;
-        height: auto;
+        height: 75dvh;
         gap: 0;
         font-size: small;
     }
@@ -187,8 +192,7 @@
     }
 
     .image-section {
-        width: 45vh;
-        height: auto;
+        width: auto;
     }
 
     .image-section img {
@@ -258,20 +262,19 @@
 /* RESUME */
 
     .resume-content-cont {
-        min-width: 100vh;    
+        width: 60dvw;    
     }
 
 
 /* PROJECTS */
     
     .project-card {
-        width: 100vh;
+        width: 55dvw;
         height: auto;
     }
 
     .image-section {
-        width: 22.5rem;
-        height: auto;
+        width: auto;
     }
 
     .right-section {
@@ -322,10 +325,12 @@
 }
 
 
-/* HOMEPAGE medium to large screens */
+/* MEDIUM to large screens */
 
 
-@media only screen and (min-width: 800px) and (max-width: 1600px) {
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+
+/* HOMEPAGE */ 
 
     .object-2 {
         left: 10rem;
@@ -338,6 +343,26 @@
 
     .hello-text {
         margin-top: 0rem;
+    }
+
+}
+
+
+/* LARGE screens */
+
+
+@media only screen and (min-width: 1400px) {
+
+/* RESUME */    
+    
+    .resume-content-cont {
+        width: 30dvw;
+    }
+
+/* PROJECTS */
+
+    .project-card {
+        width: 30dvw;
     }
 }
 
