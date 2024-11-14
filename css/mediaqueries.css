@@ -4,7 +4,7 @@
 /* HEADER MOBILE */
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     .logo-block-mobile {
         display: flex;
@@ -26,13 +26,13 @@
     .nav-link {
         color: #ffffff !important;
     }
-    
-}
 
+    .nav-item a:hover {
+        color: #111111 !important;
+    }
+    
 
 /* FOOTER MOBILE*/
-
-@media (max-width: 768px) {
 
 
     .contacts-cont {
@@ -48,12 +48,11 @@
     .credits-cont {
         display: none;
     }
-}
+
 
 
 /* HOME PAGE */
 
-@media (max-width: 768px) {
 
       .content-cont {
         flex-direction: column;
@@ -238,7 +237,7 @@
 
 /* HOMEPAGE */
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     
     .content-cont {
         width: 100%;
@@ -328,7 +327,7 @@
 /* MEDIUM to large screens */
 
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
 
 /* HOMEPAGE */ 
 
@@ -370,7 +369,7 @@
 
 /* HOMEPAGE rules EXCPEPT MOBILE */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
 
     .logo-block-mobile, .object-2-content-mobile, .bottom-cont {
         display: none;
