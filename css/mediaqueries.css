@@ -38,6 +38,8 @@
     .contacts-cont {
         padding: 0;
         width: 100%;
+        gap: 5rem;
+        justify-content: center;
     }
 
     .phone-cont,
@@ -46,7 +48,7 @@
     }
 
     .credits-cont {
-        display: none;
+        margin-left: 1.5rem;
     }
 
 
@@ -315,11 +317,7 @@
     .phone-cont,
     .social-media-cont {
         width: 8rem;
-    }
-
-    .credits-cont {
-        display: none;
-    }    
+    } 
 
 }
 
@@ -371,7 +369,7 @@
 
 @media only screen and (min-width: 900px) {
 
-    .logo-block-mobile, .object-2-content-mobile, .bottom-cont {
+    .logo-block-mobile, .object-2-content-mobile {
         display: none;
     }
 }

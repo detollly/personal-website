@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.credits-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 60vw;
+    margin: 5rem;
+}
+
+.credits-cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.credits-cart img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 1.1rem;
+}

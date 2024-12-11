@@ -8,6 +8,7 @@
 body {
     font-family: 'Poppins';
     background-image: radial-gradient(circle, #ffffff, #fefeff, #fcfdff, #fafdff, #f8fcff);
+    overflow-x: hidden;
 }
 
 .content-cont {

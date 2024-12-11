@@ -6,10 +6,10 @@
 }
 
 .upper-cont {
-    margin: 0 2rem;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .contacts-cont {
@@ -36,10 +36,19 @@
     margin-top: 2rem;
 }
 
-.credits-cont-mobile {
-    margin-left: 1rem;
+.credits-cont {
+    margin-top: 1rem;
     display: flex;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.credits-cont a {
+    text-decoration: none;
+}
+
+#credits {
+    text-align: start;
 }
 
 .footer-primary-text {
