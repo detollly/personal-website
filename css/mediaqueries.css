@@ -335,7 +335,7 @@
     }
     
     .hello-cont {
-        right: 18rem;
+        right: 1rem;
     }
 
     .hello-text {
@@ -349,6 +349,18 @@
 
 
 @media only screen and (min-width: 1400px) {
+
+/* HOMEPAGE */
+
+.hello-cont {
+    right: 30%;
+}
+
+.object-2 {
+    left: 10rem;
+    width: 380px;
+}
+
 
 /* RESUME */    
     
